@@ -4,3 +4,5 @@ easy_install supervisor
 
 supervisord --version
 
+echo_supervisord_conf > /etc/supervisord.conf
+
