@@ -23,3 +23,6 @@ startsecs=30
 stderr_logfile=/var/log/xxxxx/err.log
 stdout_logfile=/var/log/xxxxx/out.log
 user=ec2-user
+
+
+call supervisor.py python file and enter the file name as format /etc/supervisor/conf.d/<nameoffile>.conf and paste the content above.
